@@ -1,0 +1,17 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		Rectangle r = new Reactangle(2,2,8,7);
+		Rectangle r = new Reactangle(2,2,8,7);
+		Rectangle r = new Reactangle(2,2,8,7);
+		
+		r.show();
+		System.out.println("s의 면적은 " + s.square());
+		if(t.contains(r)) System.out.println("t는 r을 포함합니다.");
+		if(t.contains(s)) System.out.println("t는 s를 포함합니다.");
+		
+	
+	}
+
+}
