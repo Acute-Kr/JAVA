@@ -1,10 +1,30 @@
-
+class Rectangle{
+	public int x;	
+	public int y;
+	public int width;
+	public int height;
+	
+	public Rectangle(int x, int y, int width, int height) {
+		this.x = x;
+		this.y = y;
+		this.width = width;
+		this.height = height;
+	}
+	
+	int square() {return this.width * this.height;}
+	
+	void show() {"(" + x + "," + y +")\"에서 크기가 " + width + "x" + height +"인 사각형""}
+	
+	boolean contains(Rectangle r) {
+		
+	}
+}
 public class Main {
 
 	public static void main(String[] args) {
-		Rectangle r = new Reactangle(2,2,8,7);
-		Rectangle r = new Reactangle(2,2,8,7);
-		Rectangle r = new Reactangle(2,2,8,7);
+		Rectangle r = new Rectangle(2,2,8,7);
+		Rectangle s = new Rectangle(5,5,6,6);
+		Rectangle t = new Rectangle(1,1,10,10);
 		
 		r.show();
 		System.out.println("s의 면적은 " + s.square());
